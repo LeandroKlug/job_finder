@@ -1,0 +1,38 @@
+{
+  "name": "job_finder",
+  "version": "1.0.0",
+  "description": "Portal de vagas para desenvolvedores e empresas.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroKlug/job_finder.git"
+  },
+  "keywors": [
+    "dev",
+    "jobs",
+    "desenvolvedor",
+    "front-end",
+    "back-end",
+    "oportunity"
+  ],
+  "author": "Leandro Klug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroKlug/job_finder/issues"
+  },
+  "homepage": "https://github.com/LeandroKlug/job_finder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "node-pre-gyp": "^0.14.0",
+    "sequelize": "^5.21.6",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
