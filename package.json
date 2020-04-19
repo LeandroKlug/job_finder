@@ -4,7 +4,8 @@
   "description": "Portal de vagas para desenvolvedores e empresas.",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "publish": "surge -p ./dist -d publish-frontend-project.surge.sh"
   },
   "repository": {
     "type": "git",
